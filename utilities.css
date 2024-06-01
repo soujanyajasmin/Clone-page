@@ -68,6 +68,25 @@
     color: #fff;
 }
 
+/* Text colors */
+.text-primary {
+    color: var(--primary-color);
+    
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+    
+}
+
+.text-dark {
+    color: var(--dark-color);
+}
+
+.text-light {
+    color: var(--light-color);
+}
+
 /* text sizes*/
 .lead {
     font-size: 20px;
@@ -91,6 +110,28 @@
 
 .text-center {
     text-align: center;
+}
+
+/* Alert */
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    height: 100%;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff;
 }
 
 .flex {
