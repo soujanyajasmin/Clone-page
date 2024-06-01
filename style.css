@@ -138,3 +138,9 @@ code, pre {
     -moz-transform: skewY(-3deg);
     -ms-transform: skewY(-3deg);
 }
+
+/* Starts */
+.stats {
+    padding-top: 100px;
+    animation: slideInFromBottom 1s ease-in;
+}
