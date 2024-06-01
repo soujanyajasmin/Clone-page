@@ -97,6 +97,10 @@ code, pre {
     gap: 30px;
 }
 
+.showcase-text {
+    animation: slideInFromLeft 1s ease-in;
+}
+
 .showcase-form {
     position: relative;
     top: 60px;
