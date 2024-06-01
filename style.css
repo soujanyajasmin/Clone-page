@@ -163,3 +163,8 @@ code, pre {
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
 }
+
+/* Cloud*/
+.cloud .grid {
+    grid-template-columns: 4fr 3fr;
+}
